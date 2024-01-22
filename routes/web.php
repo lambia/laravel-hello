@@ -14,10 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $dati = config("data.home");
+    $dati = config("data");
     return view('home', $dati);
 })->name("home");
-
-Route::get('/about-us', function () {
-    return view('about', config("data.about"));
-})->name("informazioni");
