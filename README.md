@@ -18,7 +18,7 @@ Questo git-template fornisce lo scaffold di una web application realizzata con L
 
 # SETUP INIZIALE
 
-- Creare un repository a partire da questo template
+- Creare un repository a partire da questo template, cliccando in alto a destra sul pulsantone verde "Use this template" e poi su "Create a new repository"
 - Clonare il repository appena creato sul proprio PC
 - Da phpMyAdmin creare un database, importarvi i dati e segnarvi il nome dato al DB
 - Creare un file `.env`. Si può procedere copiandolo da `.env.example`
